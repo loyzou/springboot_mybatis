@@ -12,7 +12,7 @@ public class LoyController {
     @RequestMapping("/loy")
     public String loy(int id){
         String loy = loyService.queryNameById(id);
-        return  loy;
+        return loy;
     }
 
 }
